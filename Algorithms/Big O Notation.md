@@ -1,4 +1,4 @@
-#Big O Notation#
+# Big O Notation #
 
 Big O is to do with time complexity of an algorithm.
 
@@ -18,7 +18,7 @@ O(1) refers to a program where every line is only run once, much like a formula
 
 O(n) refers to a program where the lines are run n times, for example in a single loop
 
-##Polynomial Time##
+## Polynomial Time ##
 
 (just about okay!)
 
@@ -30,7 +30,7 @@ O(n^3), triple nested loop.
 
 O(n!) refers to a factorial algorithm. Factorial time algorithms are generally intractible.
 
-##Exponential Time##
+## Exponential Time ##
 
 O(2^n)
 
