@@ -1,4 +1,4 @@
-#Stored Program Concept#
+# Stored Program Concept #
 
 - How instructions are handled using the stored program concept
 - What happens at each stage of the fetch-execute cycle
@@ -11,7 +11,7 @@
 - Each instruction or data item is fetched from memory, decoded, and then executed, with any new data created being placed back into memory.
 - Every time a program is run, the processor runs through the fetch execute cycle.
 
-##Fetch-Execute Cycle##
+## Fetch-Execute Cycle ##
 
 1. Fetch the instruction from memory
 2. Decode the fetched instruction to determine what to do
