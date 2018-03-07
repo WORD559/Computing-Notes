@@ -1,4 +1,4 @@
-#Parity#
+# Parity #
 
 We can see whether data that has been transmitted by using parity. This only works if there are an odd number of errors in the transmission.
 
