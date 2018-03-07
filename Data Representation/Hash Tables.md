@@ -1,4 +1,4 @@
-=Hash Tables=
+# Hash Tables #
 
 We can have an unsorted list, but still optimise searching it.
 
