@@ -20,7 +20,7 @@ What does this mean?
 |`+`    | one or more occurances of preceding     |
 |`*`    | zero or more occurances of the preceding|
 |`[ ]`  | allowable characters                    |
-|`|`    | OR                                      |
+|`\|`    | OR                                      |
 |`( )`  | just brackets                           |
 |`-`    | range (e.g. A-Z)                        |
 |`^`    | NOT                                     |
