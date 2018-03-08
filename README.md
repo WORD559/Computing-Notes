@@ -79,6 +79,13 @@
 
 ### The Internet ###
 
+- [Client-Server Model](The%20Internet/Client-Server%20Model.md)
+- [Digital Signatures](The%20Internet/Digital%20Signatures.md)
+- [Malware and Internet Security](The%20Internet/Malware%20and%20Internet%20Security)
+- [Packet Switching and Routers](The%20Internet/Packet%20Switching%20and%20Routers.md)
+- [TCP-IP](The%20Internet/TCP-IP.md)
+- [The Internet](The%20Internet/The%20Internet.md)
+
 ### Workings of a Computer ###
 
 - [Architectures](Workings%20of%20a%20Computer/Architectures.md)
