@@ -1,4 +1,4 @@
-=Digital Signatures=
+# Digital Signatures #
 
 In order to verify the integrity of a message, you can add a digital signature to the message. The sender creates the digital signature by irreversably reducing the unencrypted message to produce a hash and then encrypting the hash using their private key. The recipient can then verify the message by hashing the received message, decrypting the hash with the sender's public key, and comparing this hash with a hash of the received message.
 
@@ -8,6 +8,7 @@ The hash could not be modified without knowing the sender's private key, and the
 However, we need to be able to confirm that the sender is the genuine sender.
 
 The receiver can confirm this with a third party by checking a digital certificate. A trusted company called a Certificate Authority provide these, which include:
+
  - A serial number
  - The name of the CA
  - Expiry date
