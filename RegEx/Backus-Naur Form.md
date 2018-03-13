@@ -12,7 +12,7 @@ Backus-Naur Form (BNF) is a context-free language. It is useful because it allow
 
 Terminals can only be on the right hand side of the expression.
 
-`{}` can be used to represent 0 or more instances of something.
+`{}` in Extended BNF can be used to represent 0 or more instances of something.
 
 ## Examples ##
 
@@ -55,3 +55,40 @@ This works by building up the palindrome from a "base case". Every binary palind
 ```
 
 etc.
+
+# Parse Trees #
+
+Take an example that represents natual language.
+
+```
+<sentence> ::= <noun phrase><verb phrase><noun phrase>
+<noun phrase> ::= <preposition><article><noun> | <article><noun>
+<verb phrase> ::= <verb> | <adverb><verb>
+<article> ::= The | the | a | an | A | An
+<preposition> ::= in | on | at | of
+<noun> ::= cat | mat | fire | front | mouse
+<verb> ::= sat | lay | ate | caught | slept
+<adverb> ::= slowly | quickly | happily
+```
+
+And the sentence `The cat sat on the mat`
+
+We can represent this in trees that categorise the different parts of the input.
+
+```
+
+
+<article>  <noun>     <verb> <preposition> <article>  <noun>
+The        cat        sat        on        the        mat
+```
+
+# Syntax Diagrams #
+
+We can also represent the syntax with a syntax diagram.
+
+- Circle = Terminal element
+- Square = Non-terminal element
+- Square with a line going back into itself = Repeating element
+
+`<INTEGER> ::= <DIGIT> | <DIGIT><INTEGER>` could be represented as:
+
